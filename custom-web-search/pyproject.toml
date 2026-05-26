@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "custom-web-search"
+version = "1.0.0"
+description = "基于 Tavily API 的企业级 MCP 联网搜索服务"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [
+    { name = "custom-mcp" },
+]
+keywords = ["mcp", "tavily", "search", "web-search", "claude", "ai"]
+dependencies = [
+    "mcp>=1.0.0",
+    "httpx>=0.24.0",
+    "pydantic>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/custom-mcp/custom-web-search"
+
+[project.scripts]
+custom-web-search = "custom_web_search:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/custom_web_search"]
