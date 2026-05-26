@@ -27,3 +27,6 @@ custom-web-search = "custom_web_search:main"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/custom_web_search"]
+
+[tool.uv]
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
