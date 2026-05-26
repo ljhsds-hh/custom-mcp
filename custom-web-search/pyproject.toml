@@ -20,7 +20,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/custom-mcp/custom-web-search"
+Homepage = "https://github.com/ljhsds-hh/custom-mcp"
 
 [project.scripts]
 custom-web-search = "custom_web_search:main"

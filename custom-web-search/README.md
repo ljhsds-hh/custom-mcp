@@ -36,10 +36,12 @@
     "custom-web-search": {
       "command": "uvx",
       "args": [
-        "--from",
-        "git+https://github.com/custom-mcp/custom-web-search.git",
-        "custom-web-search"
-      ],
+          "--from",
+          "git+https://github.com/ljhsds-hh/custom-mcp.git",
+          "--subdirectory",
+          "custom-web-search",
+          "custom-web-search"
+        ],
       "env": {
         "TAVILY_API_KEY": "tvly-xxxxxxxxxxxxxxxxxx"
       }
@@ -61,8 +63,8 @@
 **第二步**：克隆仓库并安装依赖
 
 ```bash
-git clone https://github.com/custom-mcp/custom-web-search.git
-cd custom-web-search
+git clone https://github.com/ljhsds-hh/custom-mcp.git
+cd custom-mcp/custom-web-search
 uv pip install -e .
 ```
 
@@ -153,10 +155,12 @@ uv pip install -e .
     "custom-web-search": {
       "command": "uvx",
       "args": [
-        "--from",
-        "git+https://github.com/custom-mcp/custom-web-search.git",
-        "custom-web-search"
-      ],
+          "--from",
+          "git+https://github.com/ljhsds-hh/custom-mcp.git",
+          "--subdirectory",
+          "custom-web-search",
+          "custom-web-search"
+        ],
       "env": {
         "TAVILY_API_KEY": "tvly-xxxxxxxxxxxxxxxxxx"
       }
@@ -175,10 +179,12 @@ uv pip install -e .
     "custom-web-search": {
       "command": "uvx",
       "args": [
-        "--from",
-        "git+https://github.com/custom-mcp/custom-web-search.git",
-        "custom-web-search"
-      ],
+          "--from",
+          "git+https://github.com/ljhsds-hh/custom-mcp.git",
+          "--subdirectory",
+          "custom-web-search",
+          "custom-web-search"
+        ],
       "env": {
         "TAVILY_API_KEY": "tvly-xxxxxxxxxxxxxxxxxx"
       }
@@ -197,10 +203,12 @@ uv pip install -e .
     "custom-web-search": {
       "command": "uvx",
       "args": [
-        "--from",
-        "git+https://github.com/custom-mcp/custom-web-search.git",
-        "custom-web-search"
-      ],
+          "--from",
+          "git+https://github.com/ljhsds-hh/custom-mcp.git",
+          "--subdirectory",
+          "custom-web-search",
+          "custom-web-search"
+        ],
       "env": {
         "TAVILY_API_KEY": "tvly-xxxxxxxxxxxxxxxxxx"
       }
@@ -219,10 +227,12 @@ uv pip install -e .
     "custom-web-search": {
       "command": "uvx",
       "args": [
-        "--from",
-        "git+https://github.com/custom-mcp/custom-web-search.git",
-        "custom-web-search"
-      ],
+          "--from",
+          "git+https://github.com/ljhsds-hh/custom-mcp.git",
+          "--subdirectory",
+          "custom-web-search",
+          "custom-web-search"
+        ],
       "env": {
         "TAVILY_API_KEY": "tvly-xxxxxxxxxxxxxxxxxx"
       }
@@ -243,10 +253,12 @@ uv pip install -e .
     "custom-web-search": {
       "command": "uvx",
       "args": [
-        "--from",
-        "git+https://github.com/custom-mcp/custom-web-search.git",
-        "custom-web-search"
-      ],
+          "--from",
+          "git+https://github.com/ljhsds-hh/custom-mcp.git",
+          "--subdirectory",
+          "custom-web-search",
+          "custom-web-search"
+        ],
       "env": {
         "TAVILY_API_KEY": "tvly-xxxxxxxxxxxxxxxxxx"
       }
@@ -264,7 +276,9 @@ uv pip install -e .
 command = "uvx"
 args = [
     "--from",
-    "git+https://github.com/custom-mcp/custom-web-search.git",
+    "git+https://github.com/ljhsds-hh/custom-mcp.git",
+    "--subdirectory",
+    "custom-web-search",
     "custom-web-search",
 ]
 
