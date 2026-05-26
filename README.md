@@ -18,6 +18,7 @@
 | 服务 | 说明 | 状态 |
 |------|------|------|
 | [custom-web-search](./custom-web-search/) | 基于 Tavily API 的联网搜索服务（搜索 / 内容提取 / 搜索+提取） | ✅ 已发布 |
+| [custom-ocr](./custom-ocr/) | 基于 RapidOCR 的本地离线 OCR 文字识别服务（本地图片 / 网络图片识别） | ✅ 已发布 |
 
 > 新服务将持续添加，敬请关注。
 
